@@ -6,8 +6,8 @@ import LogicaParcial.Mujer;
 
 public class PrincipalParcial {
 	public static void main(String[] args) {
-		DatosCorporales hombre = new Hombre(80, 180, 80);
-		DatosCorporales mujer = new Mujer(80, 170,80);
+		DatosCorporales hombre = new Hombre(60, 180, 80);
+		DatosCorporales mujer = new Mujer(80, 140,80);
 		
 		try {
 			System.out.println("TMB calculada del Hombre: " + hombre.calcularTMB());
